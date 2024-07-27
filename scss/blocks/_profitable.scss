@@ -1,0 +1,149 @@
+.profitable {
+  max-width: 1242px;
+  margin: auto;
+  max-height: 600px;
+  font-family: "Exo 2";
+  margin-top: 60px;
+}
+.background-img {
+  background-image: url(../../images/Truck.png);
+}
+.bg-img {
+  background-image: url(../../images/Rectangle.png);
+}
+.prof_container-h1 {
+  padding: 178px 90px;
+}
+
+.truck-container {
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  height: 400px;
+  background: url("box-background.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.text-box {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  background-image: url(../../images/Rectangle.png);
+}
+.rect-img {
+  height: 325px;
+}
+
+.why {
+  margin-top: -260px;
+  margin-left: 90px;
+  width: 362px;
+  height: 109px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.image-box {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  margin-left: 107px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profitable_wrapper {
+  margin-left: 50px;
+  display: grid;
+  grid-row-gap: 62px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 22px;
+}
+.profitable-flex {
+  display: flex;
+}
+.profitable-h4 {
+  margin: 0px 16px 16px 40px;
+  width: 327px;
+  height: 21px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #363738;
+}
+.profitable-p {
+  width: 291px;
+  height: 41px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6b6b6c;
+  margin-left: 40px;
+}
+.banner {
+  display: none;
+}
+@media (max-width: 768px) {
+  .text-box {
+    max-width: 729px;
+    max-height: 383px;
+  }
+  .profitable_wrapper {
+    display: block;
+    margin: 0;
+  }
+  .profitable-flex {
+    margin-bottom: 49px;
+  }
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: block;
+  }
+  .rect-img {
+    margin-top: -9px;
+    margin-left: -120px;
+  }
+  .why {
+    width: 288px;
+    height: 165px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .truck-container {
+    display: none;
+  }
+  .prof_container {
+    display: flex;
+    max-width: 538px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .banner {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 610px) {
+  .profitable {
+    display: none;
+  }
+}

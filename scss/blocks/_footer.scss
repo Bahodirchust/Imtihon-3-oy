@@ -1,0 +1,109 @@
+.site-footer {
+  font-family: "Exo 2";
+  margin-bottom: 100px;
+  background-color: #0b7572;
+  border: 1px solid red;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.footer {
+  display: flex;
+}
+.foot-wrappper {
+  display: flex;
+  padding-top: 80px;
+  gap: 180px;
+}
+.ul-flex {
+  display: flex;
+  gap: 100px;
+}
+.second {
+  gap: 25px;
+}
+.img-flex {
+  display: flex;
+  gap: 15px;
+}
+.logo {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 90px;
+  letter-spacing: 0.16em;
+  color: white;
+  padding: 59px 95px;
+  font-family: sans-serif;
+}
+.btn {
+  display: block;
+  background-color: #ff9619;
+  padding: 4px 6px 4px 4px;
+  color: white;
+  border: 1px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.c {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.gap {
+  margin-bottom: 25px;
+}
+.tel {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: white;
+}
+.arrow {
+  margin-left: 14px;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 30px;
+  }
+  .btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .footer {
+    flex-wrap: wrap;
+    max-width: 580px;
+    margin: auto;
+  }
+  .logo {
+    margin-bottom: -100px;
+    margin: 0;
+  }
+  .foot-wrappper {
+    display: block;
+    max-width: 580px;
+    margin: auto;
+  }
+  .btn {
+    width: 400px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .footer {
+    flex-wrap: wrap;
+    max-width: 380px;
+    margin: auto;
+  }
+  .btn {
+    max-width: 300px;
+  }
+  .ul-flex {
+    flex-wrap: wrap;
+  }
+}
